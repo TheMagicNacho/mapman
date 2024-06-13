@@ -1,0 +1,30 @@
+{
+  "name": "mapman",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@blueprintjs/core": "^5.10.1",
+    "@blueprintjs/icons": "^5.9.0",
+    "@tauri-apps/api": "^1",
+    "cesium": "^1.115.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "resium": "^1.17.2"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1",
+    "@types/react": "^18.2.70",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.0.2",
+    "vite": "^5.0.0",
+    "vite-plugin-cesium": "^1.2.22"
+  }
+}
